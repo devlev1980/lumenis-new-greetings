@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "lumenis-new-greetings-wp-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/lumenisNewGreetingsWp/LumenisNewGreetingsWpWebPart.js",
+          "manifest": "./src/webparts/lumenisNewGreetingsWp/LumenisNewGreetingsWpWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "LumenisNewGreetingsWpWebPartStrings": "lib/webparts/lumenisNewGreetingsWp/loc/{locale}.js"
+  }
+}

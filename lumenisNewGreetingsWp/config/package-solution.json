@@ -1,0 +1,14 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "lumenis-new-greetings-wp-client-side-solution",
+    "id": "8c9e2b8b-fd3e-45ef-8d76-d830b1d69114",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/lumenis-new-greetings-wp.sppkg"
+  }
+}

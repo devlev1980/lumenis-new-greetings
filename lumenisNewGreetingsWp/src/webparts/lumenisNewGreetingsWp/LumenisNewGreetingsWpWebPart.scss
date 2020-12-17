@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+$background: #e3e3e3;
+$white_color: #fff;
+$main_color: #09294a;
+$title_background: #f0f0f0;
+
+
+
+#workbenchPageContent{
+  max-width: 529px !important;
+}
+.scrollEvents{
+  overflow-y: auto;
+}
+#greetingsWP{
+  font-family: 'Open Sans', sans-serif;
+  direction: rtl;
+  color: $main_color;
+  background: $background;
+
+
+  h3{
+    text-align: center;
+    //border: 1px solid;
+    font-size: 1.3vw;
+    border-bottom: 3px solid $white_color;
+    background: $white_color;
+  }
+
+  .celebrant_detailes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid $white_color;
+    padding:5px 5px 5px 2px ;
+    //background: $background;
+    font-weight:700;
+  }
+  .evt_ic{
+    flex: 0 0 20%;
+    text-align: center;
+
+
+    a{
+      color: $main_color;
+      text-decoration: none;
+      font-weight:500;
+
+    }
+  }
+  .info {
+    flex: 0 1 73%;
+  }
+}
+
+
